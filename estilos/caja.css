@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.box {
+  /*el modelo caja se compone el*/
+  margin-top: 50px;
+  margin-bottom: 70px;
+  margin-left: 60px;
+  width: 300px;
+  height: 150px;
+  background-color: blueviolet;
+}
+a {
+  display: block; /* la propiedad de display:blck: se comporta como un "bloque", ocupando toda la línea disponible en el contenedor padre*/
+  width: 300px; /*with: es para definir el ancho */
+  height: 150px; /*heigth: para definir la altura*/
+  margin-top: 50px; /*margin-top:establece el espacio o margen que existe entre el borde superior de un elemento y el elemento que le precede*/
+  margin-bottom: 70px; /*margin-bottom:establece el espacio o margen que existe entre el borde inferior de un elemento y el elemento que le sigue*/
+  margin-left: 60px; /*margin-left: establece el espacio o margen que existe entre el borde izquierdo de un elemento y el elemento que está a su izquierda*/
+  margin-right: 20px; /*margin-right:establece el espacio o margen que existe entre el borde derecho de un elemento y el elemento que está a su derecha.*/
+  background-color: rgb(
+    143,
+    184,
+    38
+  ); /*background-color: establecer color de fondo*/
+}
+section {
+  background-color: aqua;
+  margin-top: 50;
+  margin-bottom: 60px;
+}
